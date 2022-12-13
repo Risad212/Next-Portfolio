@@ -1,0 +1,17 @@
+.product{
+    padding: 3rem;
+}
+.product i {
+    font-size: 3rem;
+    color: #f26200;
+}
+
+.product h4 {
+    font-size: 20px;
+}
+.product p {
+    line-height: 1.7;
+    font-weight: 300;
+    color: #757575;
+    font-size: 16px;
+}

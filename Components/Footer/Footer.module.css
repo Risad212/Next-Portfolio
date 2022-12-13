@@ -1,0 +1,38 @@
+.footer{
+    background: #f5ecdb;
+    color: #fff;
+    padding: 8em 0;
+    line-height: 1.7;
+    font-weight: 300;
+    color: #757575;
+    font-size: 17px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer1 h3{
+    color: #f26200;
+    font-size: 18px;
+}
+.footer2,.footer3,.footer4{
+    line-height: 1.7;
+    font-weight: 300;
+    color: #757575;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+.footer1 h3{
+    font-size: 17px;
+    font-weight: 800;
+}
+.footer2 h3{
+    font-size: 17px;
+}
+.footer3 h3{
+    font-size: 17px;
+}
+.footer4 h3{
+    font-size: 17px;
+}
