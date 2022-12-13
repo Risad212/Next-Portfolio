@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+
 .head{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 25rem;
+}
+.head h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f26200;
+    margin-bottom: 1.2rem;
+}
+.head p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.Card{
+    position: relative;
+}
+.social{
+    margin: 0;
+    background: #f26200;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 305px;
+}
+.social li{
+    margin: 1rem 0;
+}
+.social li a{
+    text-decoration: none;
+    color: #fff;
+}
+.imgInfo{
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.imgInfo h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.imgInfo span{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #cccccc;
 }
