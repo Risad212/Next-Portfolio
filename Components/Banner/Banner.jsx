@@ -1,6 +1,6 @@
 import React from 'react';
 import banner from './Banner.module.css';
-import devImg from '../../Media/dev-ed-wave.png';
+import devImg from '../../Media/men.svg';
 import Image from 'next/image';
 
 const Banner = () => {
@@ -13,8 +13,8 @@ const Banner = () => {
                         <Image src={devImg} alt="developer"/>
                         <h2>HM Risad</h2>
                         <h4>Front-End Developer</h4>
-                        <p>I’m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction. I love to solve real-world problems. I am strategic, and goal-oriented, and always work with an end goal in mind.</p>
-                        <button>Hire Me</button>
+                        <p>I Build scalable client-side web applications with modern features I convert data to a graphical interface, through the front-end technology so that users can view and interact with that data</p>
+                        <button>Contact Me</button>
                     </div>
                  </div>
               </div>

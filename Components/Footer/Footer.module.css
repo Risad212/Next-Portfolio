@@ -12,7 +12,7 @@
     grid-template-columns: repeat(4,1fr);
 }
 .footer1 h3{
-    color: #f26200;
+    color: #61DBFB;
     font-size: 18px;
 }
 .footer2,.footer3,.footer4{
@@ -23,16 +23,49 @@
     margin: 0;
     padding: 0;
 }
+.footer3 ul{
+    display: flex;
+}
+.footer3 ul li{
+    margin-right: 20px;
+    background: #61DBFB;
+    padding: 4px;
+}
+.footer img{
+    width: 30px;
+    height: 35px;
+}
+
+.footer4{
+    padding: 0 2rem;
+}
+
+.input{
+    outline: none;
+    padding: 4px 21px;
+}
+.submit{
+    padding: 5px 15px;
+    margin-left: -5px;
+    font-weight: 600;
+    background: #61DBFB;
+    border: none;
+}
+/*-- footer head style --*/
 .footer1 h3{
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 .footer2 h3{
-    font-size: 17px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 .footer3 h3{
-    font-size: 17px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 .footer4 h3{
-    font-size: 17px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
