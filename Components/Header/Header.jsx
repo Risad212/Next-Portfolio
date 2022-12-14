@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class={header.navbarBrand} href="#">MONARCHY</a>
+                        <a class={header.navbarBrand} href="#">NEXT PORTFOLIO</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -25,7 +25,7 @@ const Header = () => {
                                 <li class={header.navItem}>
                                     <a class="nav-link" href="#">Portfolio</a>
                                 </li>
-                                <li class={header.navItem}>
+                                <li class={`${header.navItem} ${header.navButton}`}>
                                     <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>

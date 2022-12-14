@@ -1,5 +1,6 @@
 .header{
     background: #f5ecdb;
+    padding: 1rem 0;
 }
 .navbarBrand{
     font-size: 18px;
@@ -9,4 +10,11 @@
 }
 .navItem{
     margin-right: 1rem;
+}
+.navButton{
+    background: #f26200;
+    padding: 0 16px;
+}
+.navButton a{
+    color: #fff !important;
 }

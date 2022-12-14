@@ -7,6 +7,9 @@ import Portfolio from "../Components/Portfolio/Portfolio";
 export default function Home() {
   return (
     <div>
+        <Head>
+            <title>NEXT PORTFOLIO</title>
+        </Head>
        <Banner />
        <About />
        <Portfolio />

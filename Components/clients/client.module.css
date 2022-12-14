@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
-
 .head{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -17,6 +16,7 @@
 }
 .Card{
     position: relative;
+    overflow: hidden;
 }
 .social{
     margin: 0;
@@ -27,14 +27,18 @@
     align-items: center;
     position: absolute;
     top: 0;
-    height: 305px;
+    height: 205px;
+    left: 0;
+    left: -50px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
 }
 .social li{
-    margin: 1rem 0;
+    margin: 12px 0;
 }
-.social li a{
-    text-decoration: none;
-    color: #fff;
+.social li a img{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .imgInfo{
     padding: 1rem;
@@ -49,4 +53,8 @@
     font-size: 1rem;
     font-weight: 300;
     color: #cccccc;
+}
+.Card:hover .social{
+    left: 0;
+    opacity: 1;
 }

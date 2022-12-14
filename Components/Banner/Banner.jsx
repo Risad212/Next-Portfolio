@@ -8,7 +8,7 @@ const Banner = () => {
               <div className="row align-items-center justify-content-center">
                  <div className="col-md-7">
                     <div className={banner.bannerContent}>
-                        <h2>Do What You Love</h2>
+                        <h2>Welcome to my porfolio</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem nulla quos suscipit laborum fugit aspernatur rem pariatur illo.</p>
                         <i class="fa fa-play-circle" aria-hidden="true"></i>
                     </div>
