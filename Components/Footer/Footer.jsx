@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-3">
                     <div className={footer.footer1}>
-                        <h3>MONARCHY</h3>
+                        <h3>NEXT PORTFOLIO</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nostrum culpa commodi similique qui, eaque necessitatibus, saepe hic repellat suscipit.</p>
                     </div>
                     </div>

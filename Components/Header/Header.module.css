@@ -1,18 +1,18 @@
 .header{
-    background: #f5ecdb;
-    padding: 1rem 0;
+    background: #fff;
+    padding: .5rem 0;
 }
 .navbarBrand{
     font-size: 18px;
     font-weight: 900;
     text-decoration: none;
-    color: #f26200;
+    color: #61DBFB;
 }
 .navItem{
     margin-right: 1rem;
 }
 .navButton{
-    background: #f26200;
+    background: #61DBFB;
     padding: 0 16px;
 }
 .navButton a{

@@ -1,26 +1,40 @@
 .banner{
-    min-height: 677px;
-    background: #f5ecdb;
+    min-height: 700px;
+    background-image: linear-gradient(#00095e,#000638);
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+   /* clip-path: polygon(50% 0%, 100% 0, 100% 81%, 0 100%, 0 0); */
+   color: #fff;
 }
 .bannerContent h2{
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1;
     font-weight: 900 !important;
-    color: #f26200;
-    margin-bottom: 30px;
+    color: #1dd3f8;
+    margin-bottom: 10px;
+}
+.bannerContent h4{
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 .bannerContent p{
     font-size: 18px;
-    color: #000;
+    color: #fff;
     margin-bottom: 30px;
 }
 .bannerContent i{
     font-size: 5rem;
     color: #f26200;
+}
+.bannerContent img{
+    width: 60%;
+    height: 100%;
+}
+.bannerContent button{
+    background: #61DBFB;
+    padding:  8px 25px;
 }
