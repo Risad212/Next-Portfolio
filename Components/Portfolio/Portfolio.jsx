@@ -13,19 +13,19 @@ const Portfolio = () => {
               <div className="row">
                  <div className="col-4">
                     <div className={portfolio.card}>
-                       <Image src={p1} alt="p1" className='img-fluid'/>
+                       <Image src={p1} alt="portfolio" className='img-fluid'/>
                     </div>
                  </div>
                 {/*-- card --*/}
                 <div className="col-4">
                     <div className={portfolio.card}>
-                       <Image src={p2} alt="p1" className='img-fluid'/>
+                       <Image src={p2} alt="portfolio" className='img-fluid'/>
                     </div>
                  </div>
                  {/*-- card --*/}
                 <div className="col-4">
                     <div className={portfolio.card}>
-                       <Image src={p3} alt="p1" className='img-fluid'/>
+                       <Image src={p3} alt="portfolio" className='img-fluid'/>
                     </div>
                  </div>
               </div>
@@ -33,19 +33,19 @@ const Portfolio = () => {
               <div className="row mt-5">
                  <div className="col-4">
                     <div className={portfolio.card}>
-                       <Image src={p3} alt="p1" className='img-fluid'/>
+                       <Image src={p3} alt="portfolio" className='img-fluid'/>
                     </div>
                  </div>
                 {/*-- card --*/}
                 <div className="col-4">
                     <div className={portfolio.card}>
-                       <Image src={p2} alt="p1" className='img-fluid'/>
+                       <Image src={p2} alt="portfolio" className='img-fluid'/>
                     </div>
                  </div>
                  {/*-- card --*/}
                 <div className="col-4">
                     <div className={portfolio.card}>
-                       <Image src={p1} alt="p1" className='img-fluid'/>
+                       <Image src={p1} alt="portfolio" className='img-fluid'/>
                     </div>
                  </div>
               </div>

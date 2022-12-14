@@ -26,12 +26,12 @@ const Clients = () => {
                 <div className="row pt-4">
                     <div className="col-3">
                         <div className={clients.Card}>
-                           <Image src={client1} className="img-fluid"/>
+                           <Image src={client1} className="img-fluid" alt='client'/>
                            <ul className={clients.social}>
-                               <li><a href="#"><Image src={f}/></a></li>
-                               <li><a href="#"><Image src={t}/></a></li>
-                               <li><a href="#"><Image src={l}/></a></li>
-                               <li><a href="#"><Image src={i}/></a></li>
+                               <li><a href="#"><Image src={f} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={t} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={l} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={i} alt="social-icon"/></a></li>
                             </ul>
                            <div className={clients.imgInfo}>
                               <h4>Kaiara Spencer</h4>
@@ -42,12 +42,12 @@ const Clients = () => {
                     {/*-- column --*/}
                     <div className="col-3">
                         <div className={clients.Card}>
-                           <Image src={client2} className="img-fluid"/>
+                           <Image src={client2} className="img-fluid" alt='client'/>
                            <ul className={clients.social}>
-                               <li><a href="#"><Image src={f}/></a></li>
-                               <li><a href="#"><Image src={t}/></a></li>
-                               <li><a href="#"><Image src={l}/></a></li>
-                               <li><a href="#"><Image src={i}/></a></li>
+                               <li><a href="#"><Image src={f} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={t} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={l} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={i} alt="social-icon"/></a></li>
                             </ul>
                            <div className={clients.imgInfo}>
                               <h4>Dave Simpson</h4>
@@ -58,12 +58,12 @@ const Clients = () => {
                     {/*-- column --*/}
                     <div className="col-3">
                         <div className={clients.Card}>
-                           <Image src={client3} className="img-fluid"/>
+                           <Image src={client3} className="img-fluid" alt='client'/>
                            <ul className={clients.social}>
-                               <li><a href="#"><Image src={f}/></a></li>
-                               <li><a href="#"><Image src={t}/></a></li>
-                               <li><a href="#"><Image src={l}/></a></li>
-                               <li><a href="#"><Image src={i}/></a></li>
+                               <li><a href="#"><Image src={f} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={t} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={l} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={i} alt="social-icon"/></a></li>
                             </ul>
                            <div className={clients.imgInfo}>
                               <h4>Chris Stewart</h4>
@@ -74,12 +74,12 @@ const Clients = () => {
                     {/*-- column --*/}
                     <div className="col-3">
                         <div className={clients.Card}>
-                           <Image src={client4} className="img-fluid"/>
+                           <Image src={client4} className="img-fluid" alt='client'/>
                            <ul className={clients.social}>
-                               <li><a href="#"><Image src={f}/></a></li>
-                               <li><a href="#"><Image src={t}/></a></li>
-                               <li><a href="#"><Image src={l}/></a></li>
-                               <li><a href="#"><Image src={i}/></a></li>
+                               <li><a href="#"><Image src={f} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={t} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={l} alt="social-icon"/></a></li>
+                               <li><a href="#"><Image src={i} alt="social-icon"/></a></li>
                             </ul>
                            <div className={clients.imgInfo}>
                               <h4>Ema Watson</h4>

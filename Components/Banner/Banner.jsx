@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className={banner.bannerContent}>
                         <h2>Welcome to my porfolio</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem nulla quos suscipit laborum fugit aspernatur rem pariatur illo.</p>
-                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        <i className="fa fa-play-circle" aria-hidden="true"></i>
                     </div>
                  </div>
               </div>
