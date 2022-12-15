@@ -22,11 +22,11 @@ const Footer = () => {
                     <div className={footer.footer2}>
                         <h3>Features</h3>
                         <ul>
-                            <li>About Me</li>
-                            <li>Services</li>
-                            <li>Skils</li>
-                            <li>Portfolio</li>
-                            <li>Contact Me</li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact Me</a></li>
                         </ul>
                     </div>
                     </div>

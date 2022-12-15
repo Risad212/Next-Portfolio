@@ -11,6 +11,10 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 .footer1 h3{
     color: #61DBFB;
     font-size: 18px;

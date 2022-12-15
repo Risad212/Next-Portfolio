@@ -17,16 +17,16 @@ const Header = () => {
                                     <a className="nav-link"href="#">Home</a>
                                 </li>
                                 <li className={header.navItem}>
-                                    <a className="nav-link" href="#">Blog</a>
+                                    <a className="nav-link" href="#">About Me</a>
                                 </li>
                                 <li className={header.navItem}>
-                                    <a className="nav-link" href="#">Pricing</a>
+                                    <a className="nav-link" href="#">Services</a>
                                 </li>
                                 <li className={header.navItem}>
                                     <a className="nav-link" href="#">Portfolio</a>
                                 </li>
                                 <li className={`${header.navItem} ${header.navButton}`}>
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <a className="nav-link" href="#">Contact Me</a>
                                 </li>
                             </ul>
                         </div>
