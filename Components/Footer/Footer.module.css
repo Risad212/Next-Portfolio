@@ -34,14 +34,15 @@
     margin-right: 20px;
     background: #61DBFB;
     padding: 4px;
+    font-size: 16px;
 }
 .footer img{
-    width: 30px;
-    height: 35px;
+    width: 25px;
+    height: 30px;
 }
 
 .footer4{
-    padding: 0 2rem;
+    padding: 0 10px;
 }
 
 .input{

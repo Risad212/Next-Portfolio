@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="col-4">
                     <div className={footer.footer1}>
                         <h3>NEXT PORTFOLIO</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nostrum culpa commodi similique qui, eaque necessitatibus, saepe hic repellat suscipit.</p>
+                        <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
                     </div>
                     </div>
                     <div className="col-2">
