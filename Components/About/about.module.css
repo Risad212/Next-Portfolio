@@ -22,3 +22,14 @@
     color: #00042c;
     margin-top: 1rem;
 }
+
+
+/*-- responsive --*/
+@media only screen and (max-width: 992px) {
+    .abtxt h2{
+        font-size: 30px;
+    }
+    .abtxt p{
+        font-size: 14px;
+    }
+}

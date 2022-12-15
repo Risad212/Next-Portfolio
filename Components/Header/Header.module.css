@@ -1,6 +1,8 @@
 .header{
     background: #fff;
     padding: .5rem 0;
+    position: sticky;
+    top: 0;
 }
 .navbarBrand{
     font-size: 18px;
