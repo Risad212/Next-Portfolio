@@ -12,13 +12,13 @@ const Footer = () => {
         <div className={footer.footer}>
             <div className="container">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6">
                     <div className={footer.footer1}>
                         <h3>NEXT PORTFOLIO</h3>
                         <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
                     </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-6">
                     <div className={footer.footer2}>
                         <h3>Features</h3>
                         <ul>
@@ -30,18 +30,18 @@ const Footer = () => {
                         </ul>
                     </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2 col-md-6 ps-3">
                     <div className={footer.footer3}>
                         <h3>Folow Us</h3>
                         <ul>
-                            <li><a href="#"><Image src={fb} alt="facebook"/></a></li>
-                            <li><a href="#"><Image src={twi} alt="twitter"/></a></li>
-                            <li><a href="#"><Image src={inst} alt="instragram"/></a></li>
-                            <li><a href="#"><Image src={linkin} alt="linkedin"/></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6">
                     <div className={footer.footer4}>
                         <h3>Subscribe Newsletter</h3>
                          <input type="text" className={footer.input}/>

@@ -7,57 +7,9 @@
     color: #fff;
     font-size: 17px;
 }
-.row{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.footer ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-.footer1 h3{
-    color: #61DBFB;
-    font-size: 18px;
-}
-.footer2,.footer3,.footer4{
-    line-height: 1.7;
-    font-weight: 300;
-    color: #fff;
-    font-size: 17px;
-    margin: 0;
-    padding: 0;
-}
-.footer3 ul{
-    display: flex;
-}
-.footer3 ul li{
-    margin-right: 20px;
-    background: #61DBFB;
-    padding: 4px;
-    font-size: 16px;
-}
-.footer img{
-    width: 25px;
-    height: 30px;
-}
-
+/*-- main div --*/
 .footer4{
     padding: 0 10px;
-}
-
-.input{
-    outline: none;
-    padding: 4px 21px;
-    border: 1px solid #ffffff;
-    background: transparent;
-    color: #fff;
-}
-.submit{
-    padding: 5px 15px;
-    margin-left: -5px;
-    font-weight: 600;
-    background: #61DBFB;
-    border: none;
 }
 /*-- footer head style --*/
 .footer1 h3{
@@ -77,3 +29,45 @@
     font-size: 20px;
     margin-bottom: 15px;
 }
+.footer1 h3{
+    color: #61DBFB;
+    font-size: 18px;
+}
+
+.footer3 ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+.footer3 ul li{
+    background: #61DBFB;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer3 ul li a i{
+    font-size: 22px;
+}
+
+
+.input{
+    outline: none;
+    padding: 4px 21px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #fff;
+    width: 60%;
+}
+.submit{
+    padding: 5px 15px;
+    margin-left: -5px;
+    font-weight: 600;
+    background: #61DBFB;
+    border: none;
+}
+
