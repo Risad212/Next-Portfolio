@@ -1,0 +1,24 @@
+.abtxt span{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #61DBFB;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.abtxt h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.abtxt button{
+    background: #61DBFB;
+    padding: 14px 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #00042c;
+    margin-top: 1rem;
+}

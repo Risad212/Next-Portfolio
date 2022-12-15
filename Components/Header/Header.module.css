@@ -8,6 +8,9 @@
     text-decoration: none;
     color: #61DBFB;
 }
+.navbarBrand:hover{
+    color: #61DBFB;
+}
 .navItem{
     margin-right: 1rem;
 }

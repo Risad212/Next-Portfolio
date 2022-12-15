@@ -47,6 +47,9 @@
 .input{
     outline: none;
     padding: 4px 21px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #fff;
 }
 .submit{
     padding: 5px 15px;
