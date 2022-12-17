@@ -21,6 +21,7 @@ const Footer = () => {
                             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
+                         <span className={footer.copy}>© Copyright 2022| Risad</span>
                     </div>
                 </div>
             </div>

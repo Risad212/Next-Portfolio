@@ -49,6 +49,14 @@
     color: #05364d;
 }
 
+.copy {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 28px;
+}
+
 @media screen and (max-width: 450px) {
     .footerLink li{
         margin-right: .5rem;
