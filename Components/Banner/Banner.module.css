@@ -1,16 +1,16 @@
-.banner{
+.banner {
     min-height: 750px;
-    background-image: linear-gradient(#00095e,#000638);
+    background-image: linear-gradient(#00095e, #000638);
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-   /* clip-path: polygon(50% 0%, 100% 0, 100% 81%, 0 100%, 0 0); */
-   color: #fff;
+    color: #fff;
 }
-.bannerContent h2{
+
+.bannerContent h2 {
     font-size: 3rem;
     line-height: 1;
     font-weight: 700;
@@ -18,27 +18,32 @@
     margin: 16px 0;
     letter-spacing: 2px;
 }
-.bannerContent h4{
+
+.bannerContent h4 {
     font-size: 1.8rem;
     margin-bottom: 10px;
     font-weight: 500;
     letter-spacing: 2px;
 }
-.bannerContent p{
+
+.bannerContent p {
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
     font-weight: 400;
 }
-.bannerContent i{
+
+.bannerContent i {
     font-size: 5rem;
     color: #f26200;
 }
-.bannerContent img{
+
+.bannerContent img {
     width: 60%;
     height: 100%;
 }
-.bannerContent button{
+
+.bannerContent button {
     background: #61DBFB;
     padding: 14px 30px;
     border: none;
@@ -46,4 +51,34 @@
     font-weight: 800;
     text-transform: uppercase;
     color: #00042c;
+}
+
+
+@media screen and (max-width: 992px) {
+    .banner {
+        min-height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .banner {
+        min-height: 450px;
+    }
+    .bannerContent h2 {
+        font-size: 2rem;
+    }
+
+    .bannerContent h4 {
+        font-size: 1rem;
+    }
+
+    .bannerContent p {
+        font-size: 14px;
+    }
+
+    .bannerContent button {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
 }
