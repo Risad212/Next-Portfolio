@@ -17,6 +17,9 @@
 .navItem{
     margin-right: 1rem;
 }
+.navItem a{
+    color: #333;
+}
 .navButton{
     background: #61DBFB;
     padding: 0 16px;
