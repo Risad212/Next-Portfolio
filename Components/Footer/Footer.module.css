@@ -28,7 +28,7 @@
     justify-content: center;
 }
 .footerLink li{
-    margin-right: .5rem;
+    margin-right: 1rem;
 }
 
 .footer .socialIcon li {
@@ -47,4 +47,11 @@
 }
 .footer .socialIcon li a{
     color: #05364d;
+}
+
+@media screen and (max-width: 450px) {
+    .footerLink li{
+        margin-right: .5rem;
+        font-size: 14px;
+    }
 }

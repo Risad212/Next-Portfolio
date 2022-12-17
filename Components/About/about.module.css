@@ -19,8 +19,11 @@
     font-size: 14px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #00042c;
     margin-top: 1rem;
+}
+.abtxt button a{
+    color: #00042c;
+    text-decoration: none;
 }
 
 
@@ -31,5 +34,15 @@
     }
     .abtxt p{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .abtxt h2{
+        font-size: 25px;
+    }
+    .abtxt button{
+        padding: 12px 25px;
+        font-size: 12px;
     }
 }

@@ -16,7 +16,7 @@ const About = () => {
                             <span>ABOUT ME</span>
                             <h2>Front-End Developer</h2>
                             <p>I'm a Frontend Web Developer Build scalable client-side web applications with modern features I convert data to a graphical interface, through the front-end technology so that users can view and interact with that data. I enjoy working with talented people to create digital products for both business and consumer use</p>
-                            <button>Download CV</button>
+                            <button><a href="#">Download CV</a></button>
                         </div>
                     </div>
                 </div>
