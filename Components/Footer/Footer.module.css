@@ -7,67 +7,44 @@
     color: #fff;
     font-size: 17px;
 }
-/*-- main div --*/
-.footer4{
-    padding: 0 10px;
+.footer a{
+  text-decoration: none;
+  color: #fff;
 }
-/*-- footer head style --*/
-.footer1 h3{
-    font-size: 25px;
-    font-weight: 800;
-    margin-bottom: 15px;
+.footer a:hover{
+    color: #fff;
 }
-.footer2 h3{
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.footer3 h3{
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.footer4 h3{
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.footer1 h3{
-    color: #61DBFB;
+.footer h3 a{
     font-size: 18px;
+    font-weight: 900;
 }
 
-.footer3 ul{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
+.footer ul li a{
+    font-weight: 400;
 }
-.footer3 ul li{
-    background: #61DBFB;
-    padding: 5px;
+
+.footer ul{
     display: flex;
     justify-content: center;
 }
-.footer ul li a{
-    text-decoration: none;
-    color: #fff;
+.footerLink li{
+    margin-right: 1rem;
 }
 
-.footer3 ul li a i{
-    font-size: 22px;
+.footer .socialIcon li {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    font-size: 16px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
-
-
-.input{
-    outline: none;
-    padding: 4px 21px;
-    border: 1px solid #ffffff;
-    background: transparent;
-    color: #fff;
-    width: 60%;
+.footer .socialIcon li a{
+    color: #05364d;
 }
-.submit{
-    padding: 5px 15px;
-    margin-left: -5px;
-    font-weight: 600;
-    background: #61DBFB;
-    border: none;
-}
-
