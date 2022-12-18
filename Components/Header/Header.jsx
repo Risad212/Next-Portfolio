@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import header from './Header.module.css';
 
 const Header = () => {
@@ -9,7 +9,11 @@ const Header = () => {
                     <div class={header.logo}>
                         <a href="#">Next Portfolio</a>
                     </div>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    {/*-- mobile bar --*/}
+                    <div className={header.togglebar}>
+                        <span></span>
+                    </div>
+                    <div className={header.menuWrapper}>
                         <ul className="navbar-nav ms-auto">
                             <li className={header.navItem}>
                                 <a className="nav-link" href="#">Home</a>
