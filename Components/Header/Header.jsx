@@ -1,7 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import header from './Header.module.css';
 
 const Header = () => {
+    const [navStyle, setNavStyle] = useState()
+    const [toggle, setToggle] = useState(true)
+
+    useEffect(() =>{
+      if(toggle){
+        setNavStyle({})
+      }else{
+        setNavStyle({
+            height: '205px',
+            visibility: 'visible',
+        })
+      }
+    },[toggle])
+
     return (
         <div className={header.header}>
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -10,10 +24,10 @@ const Header = () => {
                         <a href="#">Next Portfolio</a>
                     </div>
                     {/*-- mobile bar --*/}
-                    <div className={header.togglebar}>
+                    <div className={header.togglebar} onClick={() => setToggle(!toggle)}>
                         <span></span>
                     </div>
-                    <div className={header.menuWrapper}>
+                    <div className={`${header.menuWrapper}`} style={navStyle}>
                         <ul className="navbar-nav ms-auto">
                             <li className={header.navItem}>
                                 <a className="nav-link" href="#">Home</a>
