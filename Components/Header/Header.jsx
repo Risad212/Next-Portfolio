@@ -27,7 +27,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
                     <div class={header.logo}>
-                        <a href="#">Dev Zone</a>
+                        <a href="#">Risad Dev Zone</a>
                     </div>
                     {/*-- mobile bar --*/}
                     <div className={header.togglebar} onClick={(e) => buttonClick(e)}>

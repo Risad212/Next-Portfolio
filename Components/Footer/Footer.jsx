@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h3><a href="#">NEXT PORTFOLIO</a></h3>
+                        <h3><a href="#">RISAD DEV ZONE</a></h3>
                         <ul className={footer.footerLink}>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
