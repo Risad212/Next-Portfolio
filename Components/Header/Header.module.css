@@ -58,14 +58,14 @@
 }
 
 /*-- style on active --*/
-.togglebar.active span{
-    background-color: transparent;
+.active{
+    background-color: transparent !important;
 }
-.togglebar.active span::after{
-    transform: rotate(135deg);
+.active::after{
+    transform: rotate(135deg) !important;
 }
-.togglebar.active span::before{
-    transform: rotate(45deg);
+.active::before{
+    transform: rotate(45deg) !important;
 }
 
 

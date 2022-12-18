@@ -31,7 +31,7 @@ const Header = () => {
                     </div>
                     {/*-- mobile bar --*/}
                     <div className={header.togglebar} onClick={(e) => buttonClick(e)}>
-                        <span className={toggle? '': header.active}></span>
+                        <span className={toggle? '':header.active}></span>
                     </div>
                     <div className={`${header.menuWrapper}`} style={navStyle}>
                         <ul className="navbar-nav ms-auto">
