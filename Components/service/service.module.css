@@ -1,5 +1,9 @@
+.service{
+    padding: 5rem 0;
+}
 .title{
     text-align: center;
+    margin-bottom: 5rem;
 }
 .title span{
     font-size: 13px;
@@ -18,9 +22,9 @@
 }
 .scard{
     padding: 3rem 2rem;
+    position: relative;
     text-align: center;
     background: rgb(246, 245, 245);
-    position: relative;
     transition: background .3s ease;
 }
 .scard i{
@@ -68,6 +72,9 @@
 }
 
 @media screen and (max-width: 600px){
+    .service{
+        padding: 0px;
+    }
     .title h1{
         font-size: 22px;
     }

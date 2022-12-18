@@ -6,10 +6,9 @@ const Header = () => {
         <div className={header.header}>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
-                    <a className={header.navbarBrand} href="#">NEXT PORTFOLIO</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <div class={header.logo}>
+                        <a href="#">Next Portfolio</a>
+                    </div>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto">
                             <li className={header.navItem}>

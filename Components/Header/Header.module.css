@@ -6,13 +6,14 @@
     box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
     z-index: 5;
 }
-.navbarBrand{
+.logo a{
     font-size: 18px;
     font-weight: 900;
     text-decoration: none;
     color: #61DBFB;
+    text-transform: uppercase;
 }
-.navbarBrand:hover{
+.logo a:hover{
     color: #61DBFB;
 }
 .navItem{
