@@ -16,16 +16,22 @@ const Header = () => {
       }
     },[toggle])
 
+     const buttonClick = (e) =>{
+        setToggle(!toggle)
+        const getValue = e.target;
+        getValue.classList.toggle('active')
+     }
+
     return (
         <div className={header.header}>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
                     <div class={header.logo}>
-                        <a href="#">Next Portfolio</a>
+                        <a href="#">Dev Zone</a>
                     </div>
                     {/*-- mobile bar --*/}
-                    <div className={header.togglebar} onClick={() => setToggle(!toggle)}>
-                        <span></span>
+                    <div className={header.togglebar} onClick={(e) => buttonClick(e)}>
+                        <span className={toggle? '': header.active}></span>
                     </div>
                     <div className={`${header.menuWrapper}`} style={navStyle}>
                         <ul className="navbar-nav ms-auto">

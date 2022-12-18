@@ -57,6 +57,19 @@
     transform: translateY(-6px);
 }
 
+/*-- style on active --*/
+.togglebar.active span{
+    background-color: transparent;
+}
+.togglebar.active span::after{
+    transform: rotate(135deg);
+}
+.togglebar.active span::before{
+    transform: rotate(45deg);
+}
+
+
+
 
 @media(max-width:991px){
     .menuWrapper{
