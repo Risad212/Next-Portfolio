@@ -15,21 +15,18 @@ const Contact = () => {
         const newForm = { ...form }
         newForm[e.target.name] = e.target.value;
         setForm(newForm)
-        console.log(form)
     }
 
     const onhandleSubmit = (e) => {
         e.preventDefault()
         if(Object.keys(form).length !== 0){
-            // axios({
-            //     method: 'post',
-            //     url: 'api/send',
-            //     data: form
-            // }).then((res) =>{
-            //     console.log(res)
-            // })
-
-            console.log(form)
+            axios({
+                method: 'post',
+                url: 'api/send',
+                data: form
+            }).then((res) =>{
+                console.log(res)
+            })
             e.target.reset()
         }
     }
