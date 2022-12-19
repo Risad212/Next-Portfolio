@@ -54,7 +54,9 @@ const Contact = () => {
                                 <label for="message" class="form-label">Your Message</label>
                                 <textarea class="form-control px-3" placeholder="" id="floatingTextarea2" style={{ height: "150px" }}></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                             <div className="text-center">
+                               <button class="button">Send Message</button>
+                            </div>
                         </form> 
                     </div>
                 </div>
