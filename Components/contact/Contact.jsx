@@ -4,29 +4,34 @@ import contact from './contact.module.css';
 
 
 const Contact = () => {
-    const [form,setForm] = useState({
+    const [form, setForm] = useState({
         name: '',
         subject: '',
         email: '',
         message: '',
     })
 
-    const handleOnChange = (e) => {
-        const newForm = {...form}
+    const handleOnBlur = (e) => { 
+        const newForm = { ...form }
         newForm[e.target.name] = e.target.value;
         setForm(newForm)
+        console.log(form)
     }
 
-    const onhandleSubmit = (e) =>{
+    const onhandleSubmit = (e) => {
         e.preventDefault()
-        axios({
-            method: 'post',
-            url: 'api/send',
-            data: {form}
-       }).then(function (res) {
-          
-      })
-      e.target.reset()
+        if(Object.keys(form).length !== 0){
+            // axios({
+            //     method: 'post',
+            //     url: 'api/send',
+            //     data: form
+            // }).then((res) =>{
+            //     console.log(res)
+            // })
+
+            console.log(form)
+            e.target.reset()
+        }
     }
     return (
         <div className={contact.contact}>
@@ -40,49 +45,49 @@ const Contact = () => {
                         <ul>
                             <li className='text-center'>
                                 <i class="fa-solid fa-phone"></i>
-                                 <div>
+                                <div>
                                     <p>Call Me On</p>
                                     <span className='ms-2'>00 (958) 9865 562</span>
-                                 </div>
+                                </div>
                             </li>
                             <li className='text-center'>
                                 <i class="fa-solid fa-envelope"></i>
-                                 <div>
+                                <div>
                                     <p>Email Me On</p>
                                     <span className='ms-2'>hafez.risad@gmail.com</span>
-                                 </div>
+                                </div>
                             </li>
                             <li className='text-center'>
                                 <i class="fa-solid fa-house"></i>
-                                 <div>
+                                <div>
                                     <p>Visit Office</p>
                                     <span className='ms-2'>Mirpur 1 Shavar Dhaka Bangladaesh</span>
-                                 </div>
+                                </div>
                             </li>
                         </ul>
                         {/*-- form --*/}
                         <form onSubmit={onhandleSubmit}>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Your Name</label>
-                                <input class="form-control px-3" name="name" type="text" onChange={handleOnChange} />
+                                <input class="form-control px-3" name="name" type="text" onBlur={handleOnBlur} required/>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Your Subject</label>
-                                <input class="form-control px-3" name="subject"type="text" onChange={handleOnChange} />
+                                <input class="form-control px-3" name="subject" type="text" onBlur={handleOnBlur} required/>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control px-3" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" onChange={handleOnChange} />
+                                <input type="email" class="form-control px-3" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" onBlur={handleOnBlur} required/>
                             </div>
 
                             <div class="mb-3">
                                 <label for="message" class="form-label">Your Message</label>
-                                <textarea class="form-control px-3" placeholder="" name="message" id="floatingTextarea2" style={{ height: "150px" }} onChange={handleOnChange} ></textarea>
+                                <textarea class="form-control px-3" placeholder="" name="message" id="floatingTextarea2" style={{ height: "150px" }} onBlur={handleOnBlur} required/>
                             </div>
-                             <div className="text-center">
-                               <button class="button">Send Message</button>
+                            <div className="text-center">
+                                <button class="button">Send Message</button>
                             </div>
-                        </form> 
+                        </form>
                     </div>
                 </div>
             </div>
@@ -94,4 +99,3 @@ export default Contact;
 
 
 
-                        
