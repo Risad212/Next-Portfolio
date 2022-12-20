@@ -1,37 +1,33 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 import formStyle from './form.module.css';
 
 const Form = () => {
-    const [formInfo, setForm] = useState({
+    const [formInfo, setFormInfo] = useState({
         name: '',
         subject: '',
         email: '',
         message: '',
     })
 
+    //[===============================]
     const handleOnBlur = (e) => { 
-        if(e.target.name === 'name'){
-             if(isNaN(e.target.value)){
-                 alert('ok it fine')
-             }
-             else{
-                
-             }
-
-        }
+        const newUserInfo = {...formInfo}
+       newUserInfo[e.target.name] = e.target.value
+       setFormInfo(formInfo)
     }
+
+  //[===============================]
     const onhandleSubmit = (e) => {
         e.preventDefault()
-        if(Object.keys(formInfo).length !== 0){
-            axios({
-                method: 'post',
-                url: 'api/send',
-                data: formInfo
-            }).then((res) =>{
-                console.log(res)
-            })
-            e.target.reset()
-        }
+        axios({
+            method: 'post',
+            url: 'api/send',
+            data: formInfo
+        }).then((res) =>{
+            console.log(res)
+        })
+        e.target.reset()
     }
     return (
         <div className={formStyle.formContainer}>
