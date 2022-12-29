@@ -1,7 +1,7 @@
 import React from 'react';
 import BannerBg from '../Layouts/BannarBg/BannerBg';
 import About from '../Layouts/About/About';
-import Contact from '../Layouts/contact/Contact';
+import Contact from '../Components/contact/Contact';
 import Progress from '../Components/Progress/Progress';
 
 const about = () => {
