@@ -1,22 +1,26 @@
+.skillsContainer h3{
+  font-size: 20px;
+  font-weight: 600;
+}
 .progress {
 	background-color: #d8d8d8;
 	border-radius: 20px;
 	position: relative;
 	margin: 15px 0;
-	height: 20px;
+	height: 15px;
 	width: 100%;
 }
 .progressDone {
-	background: linear-gradient(to left, #F2709C, #FF9472);
-	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	background: linear-gradient(to left, #00042c, #00042c);
+	box-shadow: 0 3px 3px -5px #00042c, 0 2px 5px #00042c;
 	border-radius: 20px;
 	color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-	width: 100%;
-	opacity: 1;
-	transition: 1s ease 0.3s;
+	width: 0;
+	opacity: 0;
+	transition: 2s ease 0.3s;
     font-size: 16px;
 }

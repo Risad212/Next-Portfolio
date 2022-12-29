@@ -36,10 +36,10 @@ const Header = () => {
                     <div className={`${header.menuWrapper}`} style={navStyle}>
                         <ul className="navbar-nav ms-auto">
                             <li className={header.navItem}>
-                                <a className="nav-link" href="#">Home</a>
+                                <a className="nav-link" href="/">Home</a>
                             </li>
                             <li className={header.navItem}>
-                                <a className="nav-link" href="#">About Me</a>
+                                <a className="nav-link" href="/about">About Me</a>
                             </li>
                             <li className={header.navItem}>
                                 <a className="nav-link" href="#">Services</a>
