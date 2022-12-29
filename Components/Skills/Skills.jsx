@@ -7,8 +7,8 @@ const Skills = ({done}) => {
            <div className="skillsContainer">
                <h3>Html</h3>
                <div className={skills.progress}>
-                 <div className={skills.Pdone}>
-                    <h5>{done}$</h5>
+                 <div className={skills.progressDone}>
+                    {done}$
                   </div>
                </div>
            </div>
