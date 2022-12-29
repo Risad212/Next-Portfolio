@@ -1,7 +1,8 @@
-import Layouts from '../Components/Layouts/Layouts'
+
 // add bootstrap css 
 import 'bootstrap/dist/css/bootstrap.css'
 import Head from 'next/head'
+import Layout from '../Layouts/Layout/Layout';
 // own css files here
 import '../styles/globals.css';
 
@@ -14,9 +15,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
-      <Layouts>
+      <Layout>
         <Component {...pageProps} />
-      </Layouts>
+      </Layout>
     </>
   )
 }

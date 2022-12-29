@@ -1,0 +1,29 @@
+.bannerBg{
+    background-image:
+    linear-gradient(to right, rgba(32, 32, 33, 0.647), #00042c83),
+    url('../../Media/bg.webp');
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.content{
+    text-align: center;
+}
+.content h2{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+}
+.content span{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.content span i{
+    font-size: 13px;
+}
