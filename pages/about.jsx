@@ -6,10 +6,10 @@ import Progress from '../Components/Progress/Progress';
 
 const about = () => {
     // about info
-    const about = {title: 'about me', stitle: 'about'}
+    const abInfo = {title: 'about me', stitle: 'about'}
     return (
         <>
-           <BannerBg abInfo={about}/>
+           <BannerBg bgInfo={about}/>
             <About />
             <Progress />
            <Contact />

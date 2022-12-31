@@ -2,9 +2,9 @@
     background-image:
     linear-gradient(to right, rgba(32, 32, 33, 0.647), #00042c83),
     url('../../Media/bg.webp');
-    background-position: center;
+    background-position: right;
     background-size: cover;
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     align-items: center;

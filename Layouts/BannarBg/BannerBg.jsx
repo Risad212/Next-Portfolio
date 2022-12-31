@@ -1,8 +1,8 @@
 import React from 'react';
 import bannerBg from './bannerBg.module.css';
 
-const BannerBg = ({abInfo}) => {
-    const {title,stitle} = abInfo
+const BannerBg = ({bgInfo}) => {
+    const {title,stitle} = bgInfo
     return (
         <div>
             <div className={bannerBg.bannerBg}>
