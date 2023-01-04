@@ -17,7 +17,7 @@ const Contact = () => {
                                 <i class="fa-solid fa-phone"></i>
                                 <div>
                                     <p>Call Me On</p>
-                                    <span className='ms-2'>00 (958) 9865 562</span>
+                                    <span className='ms-2'>+880 (191) 0774 384</span>
                                 </div>
                             </li>
                             <li className='text-center'>
