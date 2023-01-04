@@ -11,16 +11,23 @@ const Banner = () => {
             <div className="row align-items-center justify-content-center">
                <div className="col-md-7">
                   <div className={banner.bannerContent}>
-                     <motion.div initial={{y: 140}} animate={{y: 0}}>
+                     <div>
                         <Image src={devImg} alt="developer" />
-                     </motion.div>
-                     <h2>HM Risad</h2>
-                     <h4>Front-End Developer</h4>
-                     <p>A successful website does three things:
+                     </div>
+                     <motion.h2 initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: .9}}>
+                         HM Risad
+                     </motion.h2>
+                     <motion.h4 initial={{y: 150, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1}}>
+                         Front-End Developer
+                     </motion.h4>
+                     <motion.p initial={{y: 180, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.2}}>
+                        A successful website does three things:
                         It attracts the right kinds of visitors.
                         Guides them to the main services or product you offer.
-                        Collect Contact details for future ongoing relation</p>
-                     <button><Link href="/about">Contact Me</Link></button>
+                        Collect Contact details for future ongoing relation</motion.p>
+                     <motion.button initial={{y: 200, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.5}}>
+                        <Link href="/about">Contact Me</Link>
+                     </motion.button>
                   </div>
                </div>
             </div>
