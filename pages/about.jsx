@@ -9,7 +9,7 @@ const about = () => {
     const abInfo = {title: 'about me', stitle: 'about'}
     return (
         <>
-           <BannerBg bgInfo={about}/>
+           <BannerBg bgInfo={abInfo}/>
             <About />
             <Progress />
            <Contact />

@@ -15,7 +15,7 @@ const Progress = () => {
         },
         {
             title: 'JavaScript',
-            parent: '60'
+            parent: '70'
         },
         {
             title: 'Bootstrap',
