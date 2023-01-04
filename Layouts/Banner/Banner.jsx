@@ -2,6 +2,7 @@ import React from 'react';
 import banner from './Banner.module.css';
 import devImg from '../../Media/men.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Banner = () => {
    return (
@@ -19,7 +20,7 @@ const Banner = () => {
                         It attracts the right kinds of visitors.
                         Guides them to the main services or product you offer.
                         Collect Contact details for future ongoing relation</p>
-                     <button>Contact Me</button>
+                     <button><Link href="/about">Contact Me</Link></button>
                   </div>
                </div>
             </div>

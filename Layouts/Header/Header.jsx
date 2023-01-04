@@ -48,7 +48,7 @@ const Header = () => {
                                 <a className="nav-link" href="#">Blog</a>
                             </li>
                             <li className={`${header.navItem} ${header.navButton}`}>
-                                <a className="nav-link" href="#">Contact Me</a>
+                                <a className="nav-link" href="/contactPage">Contact Me</a>
                             </li>
                         </ul>
                     </div>
