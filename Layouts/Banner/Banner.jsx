@@ -3,7 +3,7 @@ import banner from './Banner.module.css';
 import devImg from '../../Media/men.svg';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { motion } from "framer-motion";
 const Banner = () => {
    return (
       <div className={banner.banner}>
@@ -11,9 +11,9 @@ const Banner = () => {
             <div className="row align-items-center justify-content-center">
                <div className="col-md-7">
                   <div className={banner.bannerContent}>
-                     <div>
-                       <Image src={devImg} alt="developer" />
-                     </div>
+                     <motion.div initial={{y: 140}} animate={{y: 0}}>
+                        <Image src={devImg} alt="developer" />
+                     </motion.div>
                      <h2>HM Risad</h2>
                      <h4>Front-End Developer</h4>
                      <p>A successful website does three things:

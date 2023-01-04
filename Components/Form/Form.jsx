@@ -17,6 +17,7 @@ const Form = () => {
        setFormInfo(formInfo)
     }
 
+    console.log(formInfo)
   //[===============================]
     const onhandleSubmit = (e) => {
         e.preventDefault()
