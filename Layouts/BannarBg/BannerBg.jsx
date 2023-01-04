@@ -10,7 +10,7 @@ const BannerBg = ({bgInfo}) => {
                     <div className={bannerBg.content}>
                         <h2>{title}</h2>
                         <div>
-                            <span className='me-2'>Home <i class="fa-solid fa-arrow-right-long"></i></span>
+                            <span className='me-2'><a href="/">Home <i class="fa-solid fa-arrow-right-long"></i></a></span>
                             <span>{stitle}</span>
                         </div>
                     </div>
@@ -21,3 +21,4 @@ const BannerBg = ({bgInfo}) => {
 };
 
 export default BannerBg;
+
