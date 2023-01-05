@@ -28,7 +28,7 @@ const Banner = () => {
                         Guides them to the main services or product you offer.
                         Collect Contact details for future ongoing relation</motion.p>
                      <motion.button initial={{y: 200, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 1.5}}>
-                        <Link href="/about">Contact Me</Link>
+                        <Link href="/contactPage">Contact Me</Link>
                      </motion.button>
                   </div>
                </div>

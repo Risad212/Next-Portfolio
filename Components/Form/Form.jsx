@@ -16,8 +16,6 @@ const Form = () => {
        newUserInfo[e.target.name] = e.target.value
        setFormInfo(formInfo)
     }
-
-    console.log(formInfo)
   //[===============================]
     const onhandleSubmit = (e) => {
         e.preventDefault()

@@ -68,6 +68,19 @@
 .overlay a:hover{
     background: #61DBFB;
 }
+.buttonList{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.buttonList li button{
+    padding: 6px 25px;
+    margin-right: 0.5rem;
+    border: none;
+    background: #61DBFB;
+    text-transform: capitalize;
+    font-weight: 500;
+}
 
 @media screen and (max-width: 991px) {
     .portfolio{

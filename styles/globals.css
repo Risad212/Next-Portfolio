@@ -11,7 +11,12 @@ html,
 body{
   font-family: 'Poppins', sans-serif;
 }
-
+a,link{
+  text-decoration: none;
+}
+a,link:hover{
+  color: #000;
+}
 /*-- color plat --*/
 /* primary color */
 /* #61DBFB */
