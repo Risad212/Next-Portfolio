@@ -4,6 +4,7 @@ import devImg from '../../Media/men.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion} from "framer-motion";
+import  earth from '../../Media/eat.png'
 
 const Banner = () => {
    return (
@@ -12,9 +13,9 @@ const Banner = () => {
             <div className="row align-items-center justify-content-center">
                <div className="col-md-7">
                   <div className={banner.bannerContent}>
-                     <motion.div className={banner.ball} 
-                        drag dragConstraints={{left: -300, right: 700,top: -300, bottom: 500}}>
-                     </motion.div>
+                      <motion.div className={banner.earth} drag dragConstraints={{left: -300, right: 700,top: -300, bottom: 500}}>
+                          <Image src={earth} alt="earth"/>
+                      </motion.div>
                      <Image src={devImg} alt="developer" />
                      <motion.h2 initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: .9}}>
                          HM Risad
