@@ -4,7 +4,7 @@ import Banner from "../Layouts/Banner/Banner";
 import Contact from "../Components/contact/Contact";
 import Portfolio from "../Layouts/portfolio/Portfolio";
 import Service from "../Layouts/service/Service";
-import Blog from "../Layouts/Blog/Blog";
+
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
        <About />
        <Service />
        <Portfolio />
-       <Blog />
        <Contact />
     </div>
   )
