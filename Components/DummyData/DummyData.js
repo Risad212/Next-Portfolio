@@ -37,3 +37,26 @@ export const portfolioData = [
         category: 'webdesign'
     }
 ]
+
+
+// ======================
+//     show service Data
+//   =======================
+
+export const serviceData = [
+    {
+        title: 'Website Design',
+        disc: '“I will design a creative and unique website html Template Deisgn with Responsive use Bootstrap”',
+        icon: 'fa-solid fa-code',
+    },
+    {
+        title: 'Wordpress',
+        disc: '“I Will Customize Wordpress Website Design Develope With Full E-commerce functionality”',
+        icon: 'fa-brands fa-wordpress',
+    },
+    {
+        title: 'React App',
+        disc: '“I Would love to Develope Front-end and Make Single Page App with React for Better User Experience”',
+        icon: 'fa-brands fa-react',
+    },
+]
