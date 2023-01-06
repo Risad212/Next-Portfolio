@@ -16,7 +16,6 @@ const Portfolio = () => {
       }))
      }
    
-     console.log(demo)
     return (
         <div className={portfolio.portfolio}>
             <div className="container">
