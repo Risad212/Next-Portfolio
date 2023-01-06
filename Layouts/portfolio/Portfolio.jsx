@@ -5,15 +5,18 @@ import { portfolioData } from '../../Components/DummyData/DummyData';
 
 
 const Portfolio = () => {
-    const [demo, setDemo] = useState(portfolioData);
-    const buttonClick = (e) =>{
-      const btnId = e.target.id;
-      const updateDemo = demo.filter((elem) =>{
-            return btnId === elem.category
-      })
-       setDemo(updateDemo)
-     }
+    const [demo, setDemo] = useState(portfolioData)
 
+    const buttonClick = (e) =>{
+      e.preventDefault
+      const btnId = e.target.id;
+      // filter function
+      setDemo(prev => prev.filter((elem) =>{
+           return btnId === elem.category
+      }))
+     }
+   
+     console.log(demo)
     return (
         <div className={portfolio.portfolio}>
             <div className="container">
@@ -29,6 +32,7 @@ const Portfolio = () => {
                 </ul>
                 <div className="row g-5">
                     {
+                        demo?
                           demo.map((elem) => {
                                 return(
                                     <>
@@ -44,6 +48,8 @@ const Portfolio = () => {
                                     </>
                                 )
                             })
+                            :
+                            ''
                     }
                 </div>
             </div>
