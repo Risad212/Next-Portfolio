@@ -1,6 +1,5 @@
 
 // add bootstrap css 
-import 'bootstrap/dist/css/bootstrap.css'
 import Head from 'next/head'
 import Layout from '../Layouts/Layout/Layout';
 // own css files here
