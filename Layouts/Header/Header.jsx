@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import header from './Header.module.css';
-
+import { Container } from '@material-ui/core';
 const Header = () => {
     const [navStyle, setNavStyle] = useState()
     const [toggle, setToggle] = useState(true)
@@ -24,8 +24,8 @@ const Header = () => {
 
     return (
         <div className={header.header}>
-            <nav className="navbar navbar-expand-lg navbar-light">
-                <div className="container">
+            <Container>
+            <nav className={header.navbar}>
                     <div class={header.logo}>
                         <a href="#">Risad Dev Zone</a>
                     </div>
@@ -52,8 +52,8 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                    </nav>
+                </Container>
         </div>
     );
 };
