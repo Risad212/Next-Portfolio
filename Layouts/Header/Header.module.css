@@ -1,6 +1,6 @@
 .header{
     background: #fff;
-    padding: .5rem 0;
+    padding: 1.2rem 0;
     position: sticky;
     top: 0;
     box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
@@ -8,13 +8,16 @@
 }
 .navbar{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .menuWrapper ul{
     display: flex;
     margin-right: auto;
+    align-items: center;
 }
 .logo a{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
     text-decoration: none;
     color: #61DBFB;
@@ -31,7 +34,7 @@
 }
 .navButton{
     background: #61DBFB;
-    padding: 0 16px;
+    padding: 10px 20px;
 }
 .navButton a{
     color: #fff !important;
